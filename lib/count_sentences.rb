@@ -28,5 +28,6 @@ class String
 
   def count_sentences
     arr = self.split(.?!).reject {|string| string.empty?}
+    return arr.length
   end
 end
